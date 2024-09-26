@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4B0082; /* Dark Purple Text */
+    background-color: #f8f5fa; /* Very Light Purple Background */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #8a2be2; /* Medium Purple */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text for contrast */
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #6A0DAD; /* Darker Purple Hover */
+}
+
+/* Language Switcher */
+#language-switcher {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #DDA0DD; /* Light Purple Border */
+}
+
+#language-switcher a {
+    text-decoration: none;
+    color: #6A0DAD; /* Dark Purple Links */
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+#language-switcher a:hover {
+    color: #8A2BE2; /* Lighter Purple on Hover */
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+    max-width: 900px; /* Center and Limit Section Width */
+}
+
+/* Heading Styling */
+h2 {
+    color: #6A0DAD; /* Dark Purple Headings */
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #8A2BE2; /* Medium Purple Subheadings */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #4B0082; /* Darker Purple for List Items */
+}
+
+/* Video Section */
+#videos {
+    text-align: center;
+}
+
+video {
+    border: 3px solid #8A2BE2; /* Purple Border */
+    border-radius: 10px;
+}
+
+/* Social Media Links */
+#social a {
+    color: #6A0DAD;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#social a:hover {
+    color: #8A2BE2; /* Hover effect for social media links */
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 18px;
+    color: #4B0082;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    section {
+        padding: 40px;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+}
